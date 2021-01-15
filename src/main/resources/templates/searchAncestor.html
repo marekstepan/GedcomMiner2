@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>search ancestor</title>
+</head>
+<body>
+<form th:action="@{/select}" th:method="POST">
+    <label>
+        Search for:
+        <br>
+        <input type="text" name="word" placeholder="type here">
+    </label>
+    <input type="submit" value="select">
+</form>
+</body>
+</html>
